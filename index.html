@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柳州美食路线攻略 - 4月10日-4月12日</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header 主视觉区 -->
+    <header class="header">
+        <div class="header-inner container">
+            <div class="header-left">
+                <h1 class="main-title">柳州 4月10日-12日 美食路线攻略</h1>
+                <p class="sub-title">五星步行街住宿 ｜ 以吃为主 ｜ 轻松不赶</p>
+                <p class="intro">围绕柳州本地美食，结合文庙、登台亭、窑埠古镇等顺路景点，减少折返，吃好玩好。</p>
+            </div>
+            <div class="header-right">
+                <div class="quick-legend">
+                    <div class="legend-item"><span class="legend-dot hotel"></span> 酒店</div>
+                    <div class="legend-item"><span class="legend-dot foodstreet"></span> 美食街</div>
+                    <div class="legend-item"><span class="legend-dot restaurant"></span> 餐厅</div>
+                    <div class="legend-item"><span class="legend-dot spot"></span> 景点</div>
+                    <div class="legend-item"><span class="legend-dot night"></span> 夜宵点</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 柳州市区路线标注地图 -->
+    <section class="map-overview">
+        <div class="container map-wrap">
+            <div class="map-card">
+                <div class="map-header">
+                    <h3>柳州市区路线标注地图</h3>
+                    <div class="map-note">基于柳江河弯地形 · 路线示意 · 非精确比例</div>
+                </div>
+                <div class="map-with-cards">
+                    <div class="cards-col cards-left">
+                        <div class="place-card" data-id="market">
+                            <img src="images/qingyun.jpg" alt="青云民生市场" class="place-card-img">
+                            <div class="place-card-info">
+                                <div class="place-card-title">青云民生市场</div>
+                                <div class="place-card-desc">适合最后一天补吃本地小吃</div>
+                            </div>
+                        </div>
+                        <div class="place-card" data-id="foodstreet">
+                            <img src="images/wuxing.jpg" alt="五星步行街" class="place-card-img">
+                            <div class="place-card-info">
+                                <div class="place-card-title">五星步行街</div>
+                                <div class="place-card-desc">酒店附近夜宵和散步核心区域</div>
+                            </div>
+                        </div>
+                        <div class="place-card" data-id="hotel">
+                            <img src="images/hotel.jpg" alt="如家酒店neo" class="place-card-img">
+                            <div class="place-card-info">
+                                <div class="place-card-title">如家酒店neo</div>
+                                <div class="place-card-desc">本次柳州行住宿基地</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-canvas">
+                    <svg viewBox="40 50 920 580" class="map-svg" preserveAspectRatio="xMidYMid meet">
+                        <defs>
+                            <linearGradient id="riverFill" x1="0" y1="0" x2="1" y2="0">
+                                <stop offset="0%" stop-color="#B8CDD8"/><stop offset="100%" stop-color="#A8BFCE"/>
+                            </linearGradient>
+                            <filter id="pinShadow"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="rgba(0,0,0,0.2)"/></filter>
+                            <marker id="routeArr" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+                                <path d="M0,0 L10,4 L0,8 Z" fill="#D04A18"/>
+                            </marker>
+                            <marker id="routeArrFade" markerWidth="9" markerHeight="7" refX="7" refY="3.5" orient="auto">
+                                <path d="M0,0 L9,3.5 L0,7 Z" fill="#D04A18" opacity="0.4"/>
+                            </marker>
+                            <pattern id="mapGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+                                <path d="M16,0 L0,0 L0,16" fill="none" stroke="rgba(0,0,0,0.018)" stroke-width="0.5"/>
+                            </pattern>
+                        </defs>
+
+                        <!-- ===== 底图背景 ===== -->
+                        <rect width="1000" height="680" fill="#EFEBE5"/>
+                        <rect width="1000" height="680" fill="url(#mapGrid)"/>
+
+                        <!-- ===== 城市街区纹理 ===== -->
+                        <g opacity="0.3" fill="#E3DDD5" stroke="rgba(0,0,0,0.02)" stroke-width="0.5">
+                            <rect x="230" y="185" width="42" height="30" rx="1.5"/><rect x="280" y="182" width="38" height="32" rx="1.5"/>
+                            <rect x="326" y="180" width="44" height="30" rx="1.5"/><rect x="378" y="183" width="40" height="28" rx="1.5"/>
+                            <rect x="426" y="185" width="42" height="30" rx="1.5"/><rect x="476" y="190" width="38" height="28" rx="1.5"/>
+
+                            <rect x="210" y="225" width="44" height="30" rx="1.5"/><rect x="262" y="222" width="40" height="32" rx="1.5"/>
+                            <rect x="310" y="220" width="44" height="32" rx="1.5"/><rect x="362" y="222" width="42" height="30" rx="1.5"/>
+                            <rect x="412" y="224" width="44" height="30" rx="1.5"/><rect x="464" y="222" width="40" height="32" rx="1.5"/>
+                            <rect x="512" y="226" width="38" height="28" rx="1.5"/>
+
+                            <rect x="195" y="265" width="44" height="28" rx="1.5"/><rect x="247" y="262" width="42" height="30" rx="1.5"/>
+                            <rect x="297" y="260" width="46" height="32" rx="1.5"/><rect x="351" y="262" width="42" height="30" rx="1.5"/>
+                            <rect x="401" y="264" width="44" height="28" rx="1.5"/><rect x="453" y="260" width="40" height="32" rx="1.5"/>
+                            <rect x="501" y="265" width="42" height="28" rx="1.5"/><rect x="551" y="268" width="36" height="26" rx="1.5"/>
+
+                            <rect x="200" y="305" width="42" height="30" rx="1.5"/><rect x="250" y="302" width="44" height="32" rx="1.5"/>
+                            <rect x="302" y="300" width="42" height="32" rx="1.5"/><rect x="352" y="303" width="44" height="28" rx="1.5"/>
+                            <rect x="404" y="300" width="42" height="30" rx="1.5"/><rect x="454" y="305" width="40" height="28" rx="1.5"/>
+                            <rect x="502" y="302" width="44" height="30" rx="1.5"/><rect x="554" y="308" width="36" height="24" rx="1.5"/>
+
+                            <rect x="215" y="345" width="42" height="28" rx="1.5"/><rect x="265" y="342" width="44" height="30" rx="1.5"/>
+                            <rect x="317" y="340" width="42" height="32" rx="1.5"/><rect x="367" y="343" width="44" height="28" rx="1.5"/>
+                            <rect x="419" y="345" width="40" height="26" rx="1.5"/><rect x="467" y="342" width="42" height="30" rx="1.5"/>
+                            <rect x="517" y="348" width="36" height="24" rx="1.5"/>
+
+                            <rect x="240" y="385" width="40" height="28" rx="1.5"/><rect x="288" y="382" width="42" height="30" rx="1.5"/>
+                            <rect x="338" y="380" width="44" height="30" rx="1.5"/><rect x="390" y="383" width="40" height="28" rx="1.5"/>
+                            <rect x="438" y="385" width="42" height="26" rx="1.5"/><rect x="488" y="388" width="38" height="24" rx="1.5"/>
+
+                            <rect x="270" y="422" width="40" height="26" rx="1.5"/><rect x="318" y="420" width="42" height="28" rx="1.5"/>
+                            <rect x="368" y="422" width="40" height="26" rx="1.5"/><rect x="416" y="425" width="38" height="24" rx="1.5"/>
+                            <rect x="462" y="428" width="36" height="22" rx="1.5"/>
+
+                            <rect x="300" y="458" width="38" height="24" rx="1.5"/><rect x="346" y="456" width="40" height="26" rx="1.5"/>
+                            <rect x="394" y="460" width="36" height="22" rx="1.5"/><rect x="438" y="462" width="34" height="20" rx="1.5"/>
+
+                            <rect x="690" y="130" width="44" height="30" rx="1.5"/><rect x="742" y="128" width="40" height="32" rx="1.5"/>
+                            <rect x="790" y="132" width="44" height="28" rx="1.5"/><rect x="842" y="130" width="38" height="30" rx="1.5"/>
+                            <rect x="685" y="170" width="42" height="30" rx="1.5"/><rect x="735" y="168" width="44" height="32" rx="1.5"/>
+                            <rect x="787" y="172" width="40" height="28" rx="1.5"/><rect x="835" y="170" width="42" height="30" rx="1.5"/>
+                            <rect x="885" y="174" width="38" height="26" rx="1.5"/>
+                            <rect x="690" y="212" width="44" height="28" rx="1.5"/><rect x="742" y="210" width="42" height="30" rx="1.5"/>
+                            <rect x="792" y="214" width="40" height="26" rx="1.5"/><rect x="840" y="212" width="44" height="28" rx="1.5"/>
+                            <rect x="700" y="252" width="40" height="26" rx="1.5"/><rect x="748" y="250" width="42" height="28" rx="1.5"/>
+                            <rect x="798" y="254" width="38" height="24" rx="1.5"/>
+
+                            <rect x="160" y="580" width="42" height="28" rx="1.5"/><rect x="210" y="578" width="38" height="26" rx="1.5"/>
+                            <rect x="540" y="585" width="40" height="24" rx="1.5"/><rect x="588" y="582" width="38" height="26" rx="1.5"/>
+                        </g>
+
+                        <!-- ===== 公园绿地 ===== -->
+                        <g opacity="0.3">
+                            <ellipse cx="500" cy="440" rx="30" ry="22" fill="#C2D8C6"/>
+                            <text x="500" y="444" text-anchor="middle" font-size="7" fill="#6B8D72">马鞍山公园</text>
+                            <ellipse cx="290" cy="175" rx="25" ry="15" fill="#C2D8C6"/>
+                            <text x="290" y="179" text-anchor="middle" font-size="7" fill="#6B8D72">柳侯公园</text>
+                            <ellipse cx="750" cy="155" rx="22" ry="14" fill="#C2D8C6"/>
+                        </g>
+
+                        <!-- ===== 柳江 ===== -->
+                        <path class="river-outer" d="M 60,50 C 75,130 90,240 110,350 C 125,440 165,520 240,565 C 320,610 430,615 500,585 C 570,555 595,495 610,425 C 625,355 640,285 665,225 C 695,160 740,115 800,90 C 860,65 925,50 990,42"
+                              fill="none" stroke="#B8CCD8" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+                        <path class="river-inner" d="M 60,50 C 75,130 90,240 110,350 C 125,440 165,520 240,565 C 320,610 430,615 500,585 C 570,555 595,495 610,425 C 625,355 640,285 665,225 C 695,160 740,115 800,90 C 860,65 925,50 990,42"
+                              fill="none" stroke="#C8DAE4" stroke-width="38" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+                        <text x="400" y="600" text-anchor="middle" font-size="14" fill="#7E9DAD" letter-spacing="12" opacity="0.55" transform="rotate(-6,400,600)">柳  江</text>
+                        <text x="78" y="175" text-anchor="middle" font-size="9" fill="#7E9DAD" opacity="0.4" transform="rotate(80,78,175)">柳江</text>
+
+                        <!-- ===== 桥梁 ===== -->
+                        <g stroke="#D0C8BE" stroke-width="6" stroke-linecap="round" opacity="0.5">
+                            <line x1="170" y1="302" x2="138" y2="320"/>
+                            <line x1="555" y1="370" x2="582" y2="398"/>
+                            <line x1="340" y1="510" x2="355" y2="545"/>
+                        </g>
+                        <g font-size="6.5" fill="#A09888" opacity="0.42">
+                            <text x="125" y="298">文惠桥</text>
+                            <text x="588" y="393">壶东大桥</text>
+                            <text x="318" y="508">柳江大桥</text>
+                        </g>
+
+                        <!-- ===== 主要道路 ===== -->
+                        <g stroke="#D5CFC6" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6">
+                            <path d="M 185,300 L 560,295"/>
+                            <path d="M 345,175 L 355,500"/>
+                            <path d="M 220,235 L 520,230"/>
+                            <path d="M 520,305 L 580,290 L 660,250 L 850,230"/>
+                            <path d="M 250,355 L 520,350"/>
+                            <path d="M 430,195 L 440,430"/>
+                            <path d="M 555,360 L 605,335 L 645,260"/>
+                        </g>
+                        <g font-size="7" fill="#B5ADA2" opacity="0.48" font-style="italic">
+                            <text x="360" y="292">中  山  路</text>
+                            <text x="348" y="360" transform="rotate(88,348,360)">解放路</text>
+                            <text x="350" y="228">龙  城  路</text>
+                            <text x="700" y="243" transform="rotate(-5,700,243)">柳  石  路</text>
+                            <text x="380" y="348">飞  鹅  路</text>
+                            <text x="437" y="300" transform="rotate(88,437,300)">文昌路</text>
+                        </g>
+
+                        <!-- ===== 片区标注 ===== -->
+                        <g font-size="10" fill="#C5BBB0" opacity="0.3" font-weight="600" letter-spacing="3">
+                            <text x="370" y="160">城 中 区</text>
+                            <text x="780" y="290">城  东</text>
+                        </g>
+
+                        <!-- ===== 引导连接线 ===== -->
+                        <g class="leader-lines" stroke="#D04A18" stroke-width="1.2" stroke-dasharray="4 3" opacity="0.15" fill="none">
+                            <path data-id="market" d="M 292,280 C 150,278 50,272 8,270"/>
+                            <path data-id="foodstreet" d="M 358,310 C 180,340 50,362 8,370"/>
+                            <path data-id="hotel" d="M 332,345 C 170,400 50,448 8,460"/>
+                            <path data-id="yaobu" d="M 742,205 C 870,185 950,168 992,160"/>
+                            <path data-id="wenmiao" d="M 500,325 C 750,332 910,338 992,340"/>
+                            <path data-id="dengtai" d="M 492,418 C 460,550 420,630 370,672"/>
+                            <path data-id="taiping" d="M 422,300 C 500,490 540,610 600,672"/>
+                        </g>
+
+                        <!-- ===== 旅行路线 ===== -->
+                        <!-- D1 酒店→太平中街 (夜晚短途) -->
+                        <path d="M 332,345 C 370,320 398,308 422,300" fill="none" stroke="#D04A18" stroke-width="3.5" stroke-dasharray="5 5" opacity="0.35" stroke-linecap="round" marker-end="url(#routeArrFade)"/>
+
+                        <!-- D2 核心路线（高亮） 酒店→文庙→登台亭→窑埠古镇 -->
+                        <path class="route-main" d="M 332,345 L 500,325 L 492,418" fill="none" stroke="#D04A18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+                        <path class="route-main" d="M 492,418 C 540,380 600,300 660,250 C 685,232 715,215 742,205" fill="none" stroke="#D04A18" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9" marker-end="url(#routeArr)"/>
+
+                        <!-- D2 回程（虚线） 窑埠→太平中街→酒店 -->
+                        <path d="M 742,205 C 600,260 470,295 422,300 C 382,310 348,330 332,345" fill="none" stroke="#D04A18" stroke-width="3.5" stroke-dasharray="8 6" opacity="0.35" stroke-linecap="round"/>
+
+                        <!-- D3 酒店→青云市场 (短途补吃) -->
+                        <path d="M 332,345 C 315,315 298,295 292,280" fill="none" stroke="#D04A18" stroke-width="3.5" stroke-dasharray="5 5" opacity="0.35" stroke-linecap="round" marker-end="url(#routeArrFade)"/>
+
+                        <!-- 日期路线小标签 -->
+                        <g font-size="9" font-weight="600">
+                            <rect x="370" y="316" width="38" height="16" rx="8" fill="#D04A18" opacity="0.15"/>
+                            <text x="389" y="328" text-anchor="middle" fill="#D04A18" opacity="0.7">D1晚</text>
+                            <rect x="582" y="278" width="32" height="16" rx="8" fill="#D04A18" opacity="0.22"/>
+                            <text x="598" y="290" text-anchor="middle" fill="#D04A18" font-weight="800" opacity="0.9">D2</text>
+                            <rect x="266" y="288" width="38" height="16" rx="8" fill="#D04A18" opacity="0.15"/>
+                            <text x="285" y="300" text-anchor="middle" fill="#D04A18" opacity="0.7">D3午</text>
+                        </g>
+
+                        <!-- ===== 地图标记节点 ===== -->
+                        <!-- 如家酒店neo -->
+                        <g class="node" transform="translate(332,345)" data-key="hotel" data-name="如家酒店neo" style="cursor:pointer">
+                            <circle r="21" fill="#123243" filter="url(#pinShadow)"/>
+                            <text y="6" text-anchor="middle" font-size="16" fill="#FFF">🏨</text>
+                            <rect x="-56" y="24" width="112" height="20" rx="10" fill="white" fill-opacity="0.92"/>
+                            <text y="38" text-anchor="middle" font-size="9.5" fill="#222" font-weight="700">如家酒店neo</text>
+                            <text y="50" text-anchor="middle" font-size="7.5" fill="#D04A18">住宿 · 出发点</text>
+                        </g>
+
+                        <!-- 五星步行街 -->
+                        <g class="node" transform="translate(358,310)" data-key="foodstreet" data-name="五星步行街" style="cursor:pointer">
+                            <circle r="16" fill="#E87650" filter="url(#pinShadow)"/>
+                            <text y="5" text-anchor="middle" font-size="13" fill="#FFF">🍜</text>
+                            <rect x="-40" y="-42" width="80" height="18" rx="9" fill="white" fill-opacity="0.92"/>
+                            <text y="-30" text-anchor="middle" font-size="9" fill="#222" font-weight="700">五星步行街</text>
+                            <text y="-19" text-anchor="middle" font-size="7" fill="#E87650">美食街 · 夜宵</text>
+                        </g>
+
+                        <!-- 青云民生市场 -->
+                        <g class="node" transform="translate(292,280)" data-key="market" data-name="青云民生市场" style="cursor:pointer">
+                            <circle r="15" fill="#123243" filter="url(#pinShadow)"/>
+                            <text y="5" text-anchor="middle" font-size="12" fill="#FFF">🍱</text>
+                            <rect x="-44" y="-40" width="88" height="18" rx="9" fill="white" fill-opacity="0.92"/>
+                            <text y="-28" text-anchor="middle" font-size="9" fill="#222" font-weight="700">青云民生市场</text>
+                            <text y="-17" text-anchor="middle" font-size="7" fill="#888">市场 · D3补吃</text>
+                        </g>
+
+                        <!-- 太平中街(肥螺庄) -->
+                        <g class="node" transform="translate(422,300)" data-key="taiping" data-name="太平中街" style="cursor:pointer">
+                            <circle r="17" fill="#6FB386" filter="url(#pinShadow)"/>
+                            <text y="6" text-anchor="middle" font-size="14" fill="#FFF">🍽️</text>
+                            <rect x="-40" y="20" width="80" height="30" rx="4" fill="white" fill-opacity="0.92"/>
+                            <text y="34" text-anchor="middle" font-size="9" fill="#222" font-weight="700">太平中街</text>
+                            <text y="46" text-anchor="middle" font-size="7" fill="#6FB386">餐厅 · 肥螺庄</text>
+                        </g>
+
+                        <!-- 柳州文庙 -->
+                        <g class="node" transform="translate(500,325)" data-key="wenmiao" data-name="柳州文庙" style="cursor:pointer">
+                            <circle r="16" fill="#5B6E7A" filter="url(#pinShadow)"/>
+                            <text y="5" text-anchor="middle" font-size="13" fill="#FFF">⛩️</text>
+                            <rect x="-36" y="20" width="72" height="18" rx="9" fill="white" fill-opacity="0.92"/>
+                            <text y="33" text-anchor="middle" font-size="9" fill="#222" font-weight="700">柳州文庙</text>
+                            <text y="44" text-anchor="middle" font-size="7" fill="#5B6E7A">景点 · D2上午</text>
+                        </g>
+
+                        <!-- 登台亭 -->
+                        <g class="node" transform="translate(492,418)" data-key="dengtai" data-name="登台亭" style="cursor:pointer">
+                            <circle r="16" fill="#E87650" filter="url(#pinShadow)"/>
+                            <text y="5" text-anchor="middle" font-size="13" fill="#FFF">🏛️</text>
+                            <rect x="-30" y="20" width="60" height="18" rx="9" fill="white" fill-opacity="0.92"/>
+                            <text y="33" text-anchor="middle" font-size="9" fill="#222" font-weight="700">登台亭</text>
+                            <text y="44" text-anchor="middle" font-size="7" fill="#E87650">景点 · D2上午</text>
+                        </g>
+
+                        <!-- 窑埠古镇 -->
+                        <g class="node" transform="translate(742,205)" data-key="yaobu" data-name="窑埠古镇" style="cursor:pointer">
+                            <circle r="20" fill="#6FB386" filter="url(#pinShadow)"/>
+                            <text y="6" text-anchor="middle" font-size="15" fill="#FFF">🏘️</text>
+                            <rect x="-40" y="23" width="80" height="30" rx="4" fill="white" fill-opacity="0.92"/>
+                            <text y="37" text-anchor="middle" font-size="9.5" fill="#222" font-weight="700">窑埠古镇</text>
+                            <text y="49" text-anchor="middle" font-size="7" fill="#6FB386">景点+美食 · D2</text>
+                        </g>
+
+                        <!-- ===== 图例（地图内） ===== -->
+                        <g transform="translate(48,505)">
+                            <rect x="0" y="0" width="136" height="82" rx="6" fill="white" fill-opacity="0.88" stroke="rgba(0,0,0,0.06)" stroke-width="0.5"/>
+                            <text x="10" y="16" font-size="8" fill="#555" font-weight="700">路线图例</text>
+                            <line x1="10" y1="30" x2="42" y2="30" stroke="#D04A18" stroke-width="4" opacity="0.85"/>
+                            <text x="48" y="34" font-size="7" fill="#555">4月11日 核心路线</text>
+                            <line x1="10" y1="48" x2="42" y2="48" stroke="#D04A18" stroke-width="2.5" stroke-dasharray="5 4" opacity="0.4"/>
+                            <text x="48" y="52" font-size="7" fill="#555">10/12日 酒店周边</text>
+                            <line x1="10" y1="66" x2="42" y2="66" stroke="#D04A18" stroke-width="2.5" stroke-dasharray="8 5" opacity="0.35"/>
+                            <text x="48" y="70" font-size="7" fill="#555">回程路线</text>
+                        </g>
+
+                        <!-- ===== 指北针 ===== -->
+                        <g transform="translate(935,608)">
+                            <circle r="18" fill="rgba(255,255,255,0.75)" stroke="#C0B8AD" stroke-width="0.8"/>
+                            <text y="-4" text-anchor="middle" font-size="10" fill="#666" font-weight="700">N</text>
+                            <path d="M 0,0 L 0,10" stroke="#999" stroke-width="1.2"/>
+                            <path d="M 0,0 L -2.5,5 L 2.5,5 Z" fill="#888"/>
+                        </g>
+
+                        <!-- ===== 比例尺 ===== -->
+                        <g transform="translate(830,658)">
+                            <line x1="0" y1="0" x2="80" y2="0" stroke="#AAA" stroke-width="1.2"/>
+                            <line x1="0" y1="-3" x2="0" y2="3" stroke="#AAA" stroke-width="0.8"/>
+                            <line x1="40" y1="-2" x2="40" y2="2" stroke="#AAA" stroke-width="0.6"/>
+                            <line x1="80" y1="-3" x2="80" y2="3" stroke="#AAA" stroke-width="0.8"/>
+                            <text x="0" y="10" text-anchor="middle" font-size="6" fill="#AAA">0</text>
+                            <text x="40" y="10" text-anchor="middle" font-size="6" fill="#AAA">1</text>
+                            <text x="80" y="10" text-anchor="middle" font-size="6" fill="#AAA">2km</text>
+                        </g>
+
+                        <!-- ===== 地图署名 ===== -->
+                        <text x="48" y="658" font-size="8" fill="#B5ADA2" opacity="0.5">柳州市区路线示意 · 非精确比例</text>
+                    </svg>
+                    </div>
+                    <div class="cards-col cards-right">
+                        <div class="place-card" data-id="yaobu">
+                            <img src="images/yaobu.jpg" alt="窑埠古镇" class="place-card-img">
+                            <div class="place-card-info">
+                                <div class="place-card-title">窑埠古镇</div>
+                                <div class="place-card-desc">适合下午慢逛，边走边吃</div>
+                            </div>
+                        </div>
+                        <div class="place-card" data-id="wenmiao">
+                            <img src="images/wenmiao.jpg" alt="柳州文庙" class="place-card-img">
+                            <div class="place-card-info">
+                                <div class="place-card-title">柳州文庙</div>
+                                <div class="place-card-desc">适合上午游览，与登台亭顺路</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards-row cards-bottom">
+                    <div class="place-card" data-id="dengtai">
+                        <img src="images/dengtaiting.jpg" alt="登台亭" class="place-card-img">
+                        <div class="place-card-info">
+                            <div class="place-card-title">登台亭</div>
+                            <div class="place-card-desc">本次必去景点，适合与文庙一起游览</div>
+                        </div>
+                    </div>
+                    <div class="place-card" data-id="taiping">
+                        <img src="images/feiluozhuang.jpg" alt="肥螺庄" class="place-card-img">
+                        <div class="place-card-info">
+                            <div class="place-card-title">肥螺庄</div>
+                            <div class="place-card-desc">重点推荐晚餐，开启柳州美食之旅</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 酒店信息 -->
+    <section class="hotel-info" id="scroll-hotel">
+        <div class="container">
+            <div class="hotel-card">
+                <span class="hotel-icon">🏨</span>
+                <div class="hotel-body">
+                    <div class="hotel-name">如家酒店neo · 柳州五星步行街店</div>
+                    <div class="hotel-meta">📍 五星步行街 / 中山东路 ｜ 步行可达核心美食区</div>
+                    <div class="hotel-tip">策略：晚餐就近解决 · 11号集中远行 · 12号轻松收尾</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主体时间线内容 -->
+    <main class="timeline-section">
+        <div class="container">
+            <!-- Day 1: 4月10日 -->
+            <div class="timeline-item day-1" id="scroll-day1" data-keys="hotel,foodstreet,taiping,night">
+                <div class="timeline-marker">
+                    <div class="date-badge">10</div>
+                    <div class="date-month">4月</div>
+                </div>
+                <div class="timeline-content">
+                    <h2 class="day-title">4月10日 · 到达日</h2>
+                    <p class="day-overview">下午抵柳，入住休整，晚餐直奔第一顿</p>
+
+                    <div class="itinerary">
+                        <div class="itinerary-item">
+                            <div class="time">下午</div>
+                            <div class="content">到达柳州，打车前往酒店入住</div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">晚餐</div>
+                            <div class="content highlight">
+                                <div class="food-rec"><span class="rec-tag primary">首选</span><span class="restaurant-name" data-key="taiping">肥螺庄（太平中街总店）</span><span class="rec-sep">｜</span>第一顿直接吃招牌螺蛳菜</div>
+                                <div class="food-rec"><span class="rec-tag alt">备选</span>五星步行街小吃<span class="rec-sep">｜</span>饭后继续扫街</div>
+                            </div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">夜宵</div>
+                            <div class="content">酒店附近糖水 / 凉粉 / 小份螺蛳粉，轻松收尾</div>
+                        </div>
+                    </div>
+                    <div class="day-tip">💡 第一天不折腾，重点：休整 + 第一餐</div>
+                </div>
+            </div>
+
+            <!-- Day 2: 4月11日 - 核心日 -->
+            <div class="timeline-item day-2 highlight-day" id="scroll-day2" data-keys="wenmiao,dengtai,yaobu,taiping,hotel">
+                <div class="timeline-marker">
+                    <div class="date-badge">11</div>
+                    <div class="date-month">4月</div>
+                    <div class="day-highlight">核心日</div>
+                </div>
+                <div class="timeline-content">
+                    <h2 class="day-title">4月11日 · 核心日</h2>
+                    <p class="day-overview">景点 + 美食全天安排：文庙 → 登台亭 → 窑埠古镇 → 太平中街</p>
+
+                    <div class="itinerary">
+                        <div class="itinerary-item">
+                            <div class="time">早餐</div>
+                            <div class="content">酒店附近解决，螺蛳粉 / 粥 / 豆浆油条</div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">上午</div>
+                            <div class="content">柳州文庙 → 登台亭，两点顺路步行，同一片区</div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">午餐</div>
+                            <div class="content highlight">
+                                <div class="food-rec"><span class="rec-tag primary">首选</span>侨美家（窑埠古镇店）<span class="rec-sep">｜</span>地道本地菜，螺蛳粉、牛杂</div>
+                                <div class="food-rec"><span class="rec-tag alt">备选</span>窑埠古镇内随意扫街<span class="rec-sep">｜</span>粉面、鸭脚、小吃随走随吃</div>
+                            </div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">下午</div>
+                            <div class="content">窑埠古镇慢逛，散步休闲，不赶景点</div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">晚餐</div>
+                            <div class="content highlight">
+                                <div class="food-rec"><span class="rec-tag primary">首选</span><span class="restaurant-name" data-key="taiping">肥螺庄（太平中街总店）</span><span class="rec-sep">｜</span>二刷招牌螺蛳粉、鸭脚</div>
+                                <div class="food-rec"><span class="rec-tag alt">备选</span>阿晶螺蛳粉 / 神香炒螺蛳粉<span class="rec-sep">｜</span>换个风味体验</div>
+                            </div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">夜宵</div>
+                            <div class="content">回酒店附近，糖水、凉粉、酸嘢，轻食收尾</div>
+                        </div>
+                    </div>
+                    <div class="day-tip accent">⭐ 核心日：午晚两餐分配不同餐厅，充分体验</div>
+                </div>
+            </div>
+
+            <!-- Day 3: 4月12日 -->
+            <div class="timeline-item day-3" id="scroll-day3" data-keys="hotel,market,foodstreet">
+                <div class="timeline-marker">
+                    <div class="date-badge">12</div>
+                    <div class="date-month">4月</div>
+                </div>
+                <div class="timeline-content">
+                    <h2 class="day-title">4月12日 · 收尾日</h2>
+                    <p class="day-overview">轻松半天，补吃 + 打包 + 返程</p>
+
+                    <div class="itinerary">
+                        <div class="itinerary-item">
+                            <div class="time">上午</div>
+                            <div class="content">酒店附近早午餐，不赶时间</div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">中午</div>
+                            <div class="content highlight">
+                                <div class="food-rec"><span class="rec-tag primary">补吃</span>青云民生市场 / 五星步行街<span class="rec-sep">｜</span>补漏小吃，打包特产</div>
+                            </div>
+                        </div>
+                        <div class="itinerary-item">
+                            <div class="time">下午</div>
+                            <div class="content">返程，预留充足时间</div>
+                        </div>
+                    </div>
+                    <div class="day-tip">💡 不安排景点，吃好最后一顿，轻松离开</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 必吃清单 -->
+    <section class="must-eat">
+        <div class="container">
+            <h2 class="section-title">柳州必吃清单</h2>
+            <div class="must-eat-grid">
+                <div class="must-eat-card"><div class="card-icon">🍲</div><div><div class="card-title">螺蛳粉</div><div class="card-desc">原汤 / 干捞 / 炒粉，多种吃法</div></div></div>
+                <div class="must-eat-card"><div class="card-icon">🦆</div><div><div class="card-title">鸭脚</div><div class="card-desc">咸香入味，柳州特色</div></div></div>
+                <div class="must-eat-card"><div class="card-icon">🥩</div><div><div class="card-title">牛杂</div><div class="card-desc">鲜香浓郁，搭粉绝配</div></div></div>
+                <div class="must-eat-card"><div class="card-icon">🥒</div><div><div class="card-title">酸嘢</div><div class="card-desc">酸辣爽口的腌制小食</div></div></div>
+                <div class="must-eat-card"><div class="card-icon">🍮</div><div><div class="card-title">糖水 / 凉粉</div><div class="card-desc">甜品夜宵，完美收尾</div></div></div>
+                <div class="must-eat-card"><div class="card-icon">🧆</div><div><div class="card-title">豆花</div><div class="card-desc">嫩滑顺口，晚间轻食</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 出行贴士 -->
+    <section class="travel-tips">
+        <div class="container">
+            <h2 class="section-title">出行贴士</h2>
+            <div class="tips-grid">
+                <div class="tip-card"><div class="tip-icon">🏨</div><div><strong>住宿</strong> 晚餐就近，以五星步行街为圆心活动</div></div>
+                <div class="tip-card"><div class="tip-icon">📅</div><div><strong>节奏</strong> 11号集中发力，10/12号轻松</div></div>
+                <div class="tip-card"><div class="tip-icon">🚕</div><div><strong>交通</strong> 柳州打车便宜，能车不远走</div></div>
+                <div class="tip-card"><div class="tip-icon">🍴</div><div><strong>原则</strong> 吃为主逛为辅，首选优先备选灵活</div></div>
+                <div class="tip-card"><div class="tip-icon">☀️</div><div><strong>天气</strong> 4月气温宜人，注意防晒，带环保袋</div></div>
+                <div class="tip-card"><div class="tip-icon">🔄</div><div><strong>弹性</strong> 随时调整，累了就近休息</div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>柳州美食路线攻略 ｜ 吃好玩好 ｜ 随时灵活调整，祝行程愉快 💚</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
